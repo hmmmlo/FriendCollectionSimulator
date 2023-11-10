@@ -6,7 +6,6 @@ using TMPro;
 public class MainMenuController : MonoBehaviour
 {
     [SerializeField] private AudioClip _menuMusic;
-    [SerializeField] private TextMeshProUGUI _hiScoreTextView;
 
     private void Awake()
     {
@@ -19,10 +18,6 @@ public class MainMenuController : MonoBehaviour
 
     private void Start()
     {
-        //load hi score
-        int hiScore = PlayerPrefs.GetInt("HighScore");
-        _hiScoreTextView.text = hiScore.ToString();
-
         //play music
         if(_menuMusic != null)
         {
@@ -33,8 +28,6 @@ public class MainMenuController : MonoBehaviour
     public void ResetHighScore()
     {
         PlayerPrefs.SetInt("HighScore", 0);
-        int hiScore = PlayerPrefs.GetInt("HighScore");
-        _hiScoreTextView.text = hiScore.ToString();
         Debug.Log("reset score");
     }
 
