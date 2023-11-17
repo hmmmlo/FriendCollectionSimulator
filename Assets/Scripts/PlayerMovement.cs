@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private CharacterController controller;
     private PlayerInput playerInput;
+    private Animator anim;
 
     private Vector3 playerVelocity;
     private bool groundedPlayer;
@@ -17,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = gameObject.GetComponent<CharacterController>();
         playerInput = gameObject.GetComponent<PlayerInput>();
+        anim = gameObject.GetComponent<Animator>();
     }
 
     void Update()
@@ -35,7 +37,9 @@ public class PlayerMovement : MonoBehaviour
         if (move != Vector3.zero)
         {
             gameObject.transform.forward = move;
+            anim.SetBool("isRun", true);
         }
+        else { anim.SetBool("isRun", false); }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
         controller.Move(playerVelocity * Time.deltaTime);
