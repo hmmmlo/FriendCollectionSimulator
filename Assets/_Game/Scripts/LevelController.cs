@@ -26,7 +26,7 @@ public class LevelController : MonoBehaviour
     {
         if(friendCount >= 6)
         {
-            Win();
+            Invoke("Win", 0.5f);
         }
     }
 
