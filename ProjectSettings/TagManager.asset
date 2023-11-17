@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LevelController
   - Collect
+  - LevelPrefab
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
