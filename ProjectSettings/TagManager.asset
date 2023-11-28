@@ -8,6 +8,7 @@ TagManager:
   - Collect
   - LevelPrefab
   - SpawnPoint
+  - TimerText
   layers:
   - Default
   - TransparentFX
