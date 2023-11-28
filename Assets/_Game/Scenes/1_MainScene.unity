@@ -312,17 +312,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &951095811 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 951095811, guid: 2a52bdd502ec201478ea4522a6bf5b9b, type: 3}
-  m_PrefabInstance: {fileID: 1595649219037514819}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1461641941
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,10 +443,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 951095809, guid: 2a52bdd502ec201478ea4522a6bf5b9b, type: 3}
-      propertyPath: m_TagString
-      value: TimerText
-      objectReference: {fileID: 0}
     - target: {fileID: 1595649220034173126, guid: 2a52bdd502ec201478ea4522a6bf5b9b, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -555,10 +540,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6033903579982988889, guid: 19ccdf4e8cf05cb47a29efb772b24cc9, type: 3}
-      propertyPath: _timer
-      value: 
-      objectReference: {fileID: 951095811}
     - target: {fileID: 6033903579982988889, guid: 19ccdf4e8cf05cb47a29efb772b24cc9, type: 3}
       propertyPath: friendTxt
       value: 

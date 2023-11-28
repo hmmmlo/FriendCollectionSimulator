@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   friendTxt: {fileID: 0}
-  _timer: {fileID: 0}
+  friendCount: 0
 --- !u!114 &6033903579982988888
 MonoBehaviour:
   m_ObjectHideFlags: 0
