@@ -9,13 +9,14 @@ public class LevelController : MonoBehaviour
     [SerializeField] TextMeshProUGUI friendTxt;
     private SceneLoader _scene;
 
-    private int friendCount;
+    [SerializeField] private int friendCount;
 
     private void Awake()
     {
         friendCount = 0;
         _scene = GetComponent<SceneLoader>();
     }
+
     public void UpdateFriends()
     {
         friendCount++;
@@ -26,16 +27,21 @@ public class LevelController : MonoBehaviour
     {
         if(friendCount >= 6)
         {
-            Invoke("Win", 0.5f);
+            Invoke("Win", 0.2f);
         }
     }
 
-    void Win()
+    public void Win()
     {
         _scene.LoadScene("3_Win");
     }
 
-    void Lose()
+    public void Lose()
+    {
+        Invoke("EndGame", 0.2f);
+    }
+
+    public void EndGame()
     {
         _scene.LoadScene("2_Lose");
     }
