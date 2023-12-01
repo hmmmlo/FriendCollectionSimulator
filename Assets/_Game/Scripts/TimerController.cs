@@ -8,7 +8,7 @@ public class TimerController : MonoBehaviour
     LevelController _lvlController;
 
     [Header("Timer")]
-    int _timePlayed = 120;
+    int _timePlayed = 60;
     TextMeshProUGUI _timer;
 
     private void Awake()

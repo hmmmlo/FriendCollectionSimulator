@@ -9,6 +9,7 @@ TagManager:
   - LevelPrefab
   - SpawnPoint
   - TimerText
+  - EnemyTarget
   layers:
   - Default
   - TransparentFX
