@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 76
+  controlID: 13575
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 13576
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 13577
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -327,17 +327,17 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -489.33337
     m_HBaseRangeMax: 489.33337
-    m_VBaseRangeMin: -232.5
-    m_VBaseRangeMax: 232.5
+    m_VBaseRangeMin: -222
+    m_VBaseRangeMax: 222
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -345,11 +345,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 978.66675
-      height: 465
-    m_Scale: {x: 1.0642622, y: 1.0642622}
-    m_Translation: {x: 520.779, y: 218.23378}
+      height: 444
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 489.33337, y: 222}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -489.33337
-      y: -205.05641
-      width: 919.573
-      height: 436.92242
+      y: -222
+      width: 978.66675
+      height: 444
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1468.0001, y: 697.5}
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 40890000
-      m_LastClickedID: 35136
-      m_ExpandedIDs: ecbfffff96c1ffff30d6ffff34d6ffff36dbffff50e5ffff96870000388900003a890000548a0000b88c000028940000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b2abffff7ac7ffff2afbffff00660000a4670000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -634,7 +634,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 24.666666}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -650,9 +650,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.6986265, y: -9.300351, z: 2.563632}
+    m_Target: {x: -2.9193244, y: -0.1513462, z: -4.283107}
     speed: 2
-    m_Value: {x: -8.6986265, y: -9.300351, z: 2.563632}
+    m_Value: {x: -2.9193244, y: -0.1513462, z: -4.283107}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -699,13 +699,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.3598972, y: -0.20970684, z: 0.08354042, w: 0.9053675}
+    m_Target: {x: 0.4268435, y: 0.039718527, z: -0.018496517, w: 0.90336263}
     speed: 2
-    m_Value: {x: 0.3597405, y: -0.21104647, z: 0.08407292, w: 0.9049739}
+    m_Value: {x: 0.4255033, y: 0.03703074, z: -0.017158817, w: 0.90403616}
   m_Size:
-    m_Target: 28.589329
+    m_Target: 15.862697
     speed: 2
-    m_Value: 27.35821
+    m_Value: 15.862697
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -771,22 +771,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Game
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/_Game
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\cotto\Documents\Unity Projects\FriendCollectionSimulator
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 11.666687}
-    m_SelectedIDs: ecca0000
-    m_LastClickedID: 51948
-    m_ExpandedIDs: 00000000a8ca0000aaca0000acca0000ecca0000f0ca000000ca9a3b
+    m_SelectedIDs: acdf0000
+    m_LastClickedID: 57260
+    m_ExpandedIDs: 00000000acdf0000aedf0000b0df0000f0df000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -814,7 +814,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8ca0000aaca0000acca0000
+    m_ExpandedIDs: 00000000acdf0000aedf0000b0df000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

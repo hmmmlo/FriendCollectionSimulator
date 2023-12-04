@@ -7581,12 +7581,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _friendPrefab:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2505660932299615803, guid: f2163365c2c7fa244bf043463f2f400b, type: 3}
+  - {fileID: 2505660932299615803, guid: 6fd777bce781a9d4d8254a2f167bf614, type: 3}
+  - {fileID: 2505660932299615803, guid: 7ee22db28b5927a44855bdaea89e8642, type: 3}
+  - {fileID: 2505660932299615803, guid: 258a4795f4e4b7148ac00a7837cf4e06, type: 3}
+  - {fileID: 2505660932299615803, guid: 1df574d1664c9e744a670cdeabc94c5c, type: 3}
+  - {fileID: 2505660932299615803, guid: 7c73bc3996d41ce449373dd115bf38b2, type: 3}
 --- !u!1 &5041666431773147418
 GameObject:
   m_ObjectHideFlags: 0
@@ -14590,7 +14590,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: 017e7681a90b77647948e0b6bdceb86e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f881ca90f802c344864457e643932d7, type: 2}
+      objectReference: {fileID: 2100000, guid: e48531e751a60bc489e0d90e04533d8b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 017e7681a90b77647948e0b6bdceb86e, type: 3}
 --- !u!4 &4307391010998753440 stripped
