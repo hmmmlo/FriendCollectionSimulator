@@ -32704,7 +32704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3298401191921161103
 Transform:
   m_ObjectHideFlags: 0
@@ -40925,13 +40925,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85a7e5cf5cb221c48b6c4feccd93b049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _friendPrefab:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &6818692302342694952
 Transform:
   m_ObjectHideFlags: 0
